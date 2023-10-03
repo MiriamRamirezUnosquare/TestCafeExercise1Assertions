@@ -1,0 +1,12 @@
+{
+    "browsers": ["chrome"],
+    "src": "./Tests/",
+    "debugOnFail": false, 
+    "output": "reports/report.xml",
+    "selectorTimeout": 5000,
+    "assertionTimeout": 3000, 
+    "pageLoadTimeout": 1000,
+    "screenshots": {
+        "takeOnFails": true
+    }
+}
